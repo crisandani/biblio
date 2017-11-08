@@ -12,7 +12,7 @@ public class MeniuPrincipal extends javax.swing.JFrame {
     private Connection con=null;
     private Statement st;
     private ResultSet rs;
-    
+    public int de_test;
         public MeniuPrincipal() {
         initComponents();
         setIcon();
